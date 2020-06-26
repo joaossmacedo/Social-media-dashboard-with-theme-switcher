@@ -1,7 +1,7 @@
 iframe {
     min-width: 100%; 
     width: 100px;
-    *width: 100%; 
+    *width: 100%;
 }
 
 .attribution { font-size: 11px; text-align: center; }
@@ -62,6 +62,8 @@ body {
     margin: 0;
 
     font-family: 'Inter', sans-serif;
+
+    -webkit-overflow-scrolling:touch;
 
     /* background: linear-gradient(0deg, var(--bg-bottom) calc(100% - 225px), var(--bg-top) 0%); */
     background-color: var(--bg-bottom);
