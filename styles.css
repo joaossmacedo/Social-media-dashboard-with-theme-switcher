@@ -64,7 +64,7 @@ body {
     font-family: 'Inter', sans-serif;
 
     -webkit-overflow-scrolling:touch;
-
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
     /* background: linear-gradient(0deg, var(--bg-bottom) calc(100% - 225px), var(--bg-top) 0%); */
     background-color: var(--bg-bottom);
     background-attachment:scroll;
